@@ -1,7 +1,7 @@
 # 1. qué día de la semana se produce el mayor número de ventas
 # 2. qué día de la semana se produce el menor número de ventas
 # 3. si las ventas del domingo superan a la media semanal.
-def DomingoSemana(domingo, media):
+def domingoSemana(domingo, media):
     if domingo > media:
         print("Sí")
     else:
@@ -30,4 +30,4 @@ mediaSemana = total / len(recaudacion)
 print("Mejor día: ", dias[masVentas])
 print("Peor día: ", dias[menosVentas])
 
-DomingoSemana(recaudacion[5], mediaSemana)
+domingoSemana(recaudacion[5], mediaSemana)
