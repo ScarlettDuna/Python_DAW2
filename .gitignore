@@ -1,0 +1,8 @@
+# Ignorar configuración de JetBrains (IntelliJ, PyCharm, WebStorm)
+.idea/
+*.iml
+**/.idea/
+
+
+# Ignorar entorno virtual
+.venv/
