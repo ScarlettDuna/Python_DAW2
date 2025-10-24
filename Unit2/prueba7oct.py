@@ -8,10 +8,10 @@ def domingoSemana(domingo, media):
         print("No")
 
 dias = ["MARTES", "MIÉRCOLES", "JUEVES", "VIERNES", "SÁBADO", "DOMINGO"]
-recaudacion = []
+recaudacion = [None, None, None, None, None, None]
 try:
     for i in range(6):
-        recaudacion.append(int(input(f"Inserte la recaudación del {dias[i]} ")))
+        recaudacion[i] = int(input(f"Inserte la recaudación del {dias[i]} "))
 except ValueError:
     print("Debes introducir números")
 
