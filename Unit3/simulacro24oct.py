@@ -3,7 +3,7 @@ def calculadoraXXX(*numeros, operador, redondear=False):
         print("No se han proporcionado datos")
         return None
     if operador not in ["suma", "media", "max", "min"]:
-        print("Error: operación no válida");
+        print("Error: operación no válida")
         return None
     resultado = 0
     match operador:
