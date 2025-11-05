@@ -17,5 +17,5 @@ matriz4x4[matriz4x4 % 2 == 0] = -1
 print(matriz4x4)
 
 # D.
-matrizCompleja = np.array([[2+0.j, 3+0.j, 4+0.j], [5+0.j, 6+0.j, 7+0.j]])
+matrizCompleja = np.array([[2+0.j, 3+0.j, 4+0.j], [5+0.j, 6+0.j, 7+0.j]], dtype=complex)
 print(matrizCompleja)
