@@ -15,35 +15,36 @@ mitad = len(distritos) // 2
 grupo1 = distritos[:mitad]
 grupo2 = distritos[mitad:]
 
-# --- Primera gráfica ---
+# --- Primera gráfica --- Perros
 
-colores1 = plt.colormaps['nipy_spectral'](np.linspace(0, 1, len(grupo1))) #Genera colores
+colores1 = plt.colormaps['nipy_spectral'](np.linspace(0, 1, len(grupo1)))  #genera más colores
 
 plt.figure(figsize=(13, 6))
 plt.subplots_adjust(right=0.8)
 
 for d, color in zip(grupo1, colores1):
     datos = censo[censo['DISTRITO'] == d]
-    plt.plot(datos['ANO'], datos['ESPECIE_FELINA'], label=d, color=color)
+    plt.plot(datos['ANO'], datos['ESPECIE_CANINA'], label=d, color=color)
 
 plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 plt.xlabel('Año')
-plt.ylabel('Número de gatos')
-plt.title('Evolución por distrito - Censo de gatos')
-plt.savefig('grafica_gatos1.png')
+plt.ylabel('Número de perros')
+plt.title('Evolución por distrito - Censo de perros')
+plt.savefig('grafica_perros1.png')
 
-# --- Segunda gráfica ---
+# --- Segunda gráfica --- Perros
 
-colores2 = plt.colormaps['nipy_spectral'](np.linspace(0, 1, len(grupo1)))
+colores2 = plt.colormaps['nipy_spectral'](np.linspace(0, 1, len(grupo1)))  #genera más colores
 
 plt.figure(figsize=(13, 6))
 plt.subplots_adjust(right=0.8)
+
 for d, color in zip(grupo2, colores2):
     datos = censo[censo['DISTRITO'] == d]
-    plt.plot(datos['ANO'], datos['ESPECIE_FELINA'], label=d, color=color)
+    plt.plot(datos['ANO'], datos['ESPECIE_CANINA'], label=d, color=color)
 
 plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 plt.xlabel('Año')
-plt.ylabel('Número de gatos')
-plt.title('Evolución por distrito - Censo de gatos')
-plt.savefig('grafica_gatos2.png')
+plt.ylabel('Número de perros')
+plt.title('Evolución por distrito - Censo de perros')
+plt.savefig('grafica_perros2.png')
