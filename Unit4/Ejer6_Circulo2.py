@@ -2,7 +2,7 @@
 class Circulo():
     def __init__(self, radio):
         self.radio = radio
-    # Vamos a usar un decorador @property para convertir un mét6odo en atributo
+    # Vamos a usar un decorador @property para convertir un método en atributo
     # Así podemos acceder a los métodos directamente
     @property
     def radio(self):
