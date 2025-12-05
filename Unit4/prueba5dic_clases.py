@@ -1,7 +1,7 @@
 class DNIARG:
     def __init__(self, numero):
         self.numero = numero
-        self.letra = "a"
+        self.letra = "A"
     # Getter y Setter - numero
     @property
     def numero(self):
@@ -44,7 +44,7 @@ class PersonaARG(DNIARG):
             raise ValueError ("La edad debe ser un número positivo")
         
     def __str__(self):
-        return f"Esta persona se llama {self.nombre} y tiene {self.edad} años con DNI {self.nombre}{self.letra}."
+        return f"Esta persona se llama {self.nombre} y tiene {self.edad} años con DNI {self.numero}{self.letra}."
         
 class NotasARG:
     def __init__(self):
