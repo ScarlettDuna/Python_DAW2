@@ -67,6 +67,17 @@ class NotasARG:
             del self.notas[asignatura]
         else:
             raise ValueError("No se ha encontrado la asignatura")
+
+    def media(self):
+        contador = 0
+        total = 0
+        for item in self.notas.values():
+            total += item
+            contador += 1
+        if contador != 0:
+            return total / contador
+        else:
+            return 0
         
     def __str__(self):
         return str(self.notas)
@@ -95,4 +106,4 @@ unAlumno = AlumnoARG("12345678", "Arantxa" , 22)
 print(unAlumno)
 unAlumno.addnotas("dibujo", 5.8)
 unAlumno.addnotas("sociales", 9.0)
-print(unAlumno)
+print("La media es ", unAlumno.media())
