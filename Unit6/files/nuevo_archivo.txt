@@ -1,0 +1,3 @@
+Hola, esta es la primera línea
+Y esta la segunda
+Texto añadido con append

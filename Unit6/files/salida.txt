@@ -1,0 +1,3 @@
+Línea 1: configuración inicial
+Línea 2: proceso finalizado
+Línea 3: añadida desde append 

@@ -1,0 +1,60 @@
+[INFO] Sistema iniciado correctamente.
+[ERROR] Fallo en la conexión con la base de datos: Timeout tras 30s.
+[INFO] Usuario 'admin' ha iniciado sesión desde la IP 192.168.1.15.
+[WARNING] Uso de CPU superior al 85% detectado.
+[INFO] Sincronización de reloj completada.
+[ERROR] Permiso denegado al intentar escribir en /var/log/sys.log.
+[INFO] Backup programado iniciado.
+[WARNING] Espacio en disco bajo: menos del 10% disponible en /dev/sda1.
+[INFO] Nueva actualización de software detectada (v2.4.1).
+[ERROR] Error 404: Recurso no encontrado en el servidor web.
+[INFO] Petición GET recibida en /api/v1/status.
+[WARNING] Latencia de red inusual en la interfaz eth0.
+[INFO] Servicio de mensajería reiniciado.
+[ERROR] Desbordamiento de pila en el módulo de procesamiento de imágenes.
+[INFO] Usuario 'guest' ha cerrado sesión.
+[WARNING] El certificado SSL caducará en 5 días.
+[INFO] Limpieza de archivos temporales finalizada.
+[ERROR] Fallo crítico de hardware: Sector defectuoso en disco 2.
+[INFO] Conexión establecida con el nodo remoto 10.0.0.5.
+[WARNING] Intento de acceso fallido para el usuario 'root'.
+[INFO] Indexación de base de datos terminada.
+[INFO] El proceso de limpieza se ejecutó en 150ms.
+[ERROR] Variable de entorno 'API_KEY' no configurada.
+[INFO] Monitorización activa en el puerto 8080.
+[WARNING] Versión de Java obsoleta: Se recomienda actualizar a la v21.
+[INFO] Compresión de logs antiguos realizada.
+[ERROR] Error de segmentación (core dumped) en proceso 4521.
+[INFO] Configuración cargada desde config.yaml.
+[WARNING] Temperatura del sensor 4 excediendo los 70 grados.
+[INFO] Sistema operativo: Linux kernel 5.15.0.
+[ERROR] No se pudo resolver el host 'update.server.com'.
+[INFO] Tarea cron 'daily_cleanup' ejecutada con éxito.
+[WARNING] Paquete descartado por regla de firewall #14.
+[INFO] Caché de aplicaciones purgada.
+[ERROR] Puntero nulo detectado en el hilo principal.
+[INFO] Interfaz gráfica de usuario lista.
+[WARNING] Consumo de RAM inestable por el proceso 'browser_helper'.
+[INFO] Conexión SSL/TLS 1.3 negociada.
+[ERROR] Archivo de configuración corrupto o ilegible.
+[INFO] El tiempo de actividad actual es de 240 horas.
+[INFO] Auditando cambios en el sistema de archivos...
+[WARNING] Se detectó una sesión de SSH abierta por más de 12 horas.
+[ERROR] Excepción de división por cero en el cálculo de métricas.
+[INFO] Módulo de seguridad cargado.
+[WARNING] Límite de descriptores de archivo alcanzado para el proceso 88.
+[INFO] Escaneo de vulnerabilidades finalizado: 0 encontradas.
+[INFO] Servicio de impresión en espera.
+[ERROR] Error de escritura en el socket: Tubería rota.
+[INFO] Despliegue de contenedor Docker 'webapp' exitoso.
+[WARNING] La batería del UPS está al 40%.
+[INFO] Recolector de basura (GC) liberó 450MB.
+[ERROR] Fallo en el handshake de la base de datos secundaria.
+[INFO] Script de mantenimiento iniciado por el usuario 'maint'.
+[WARNING] Desviación de reloj detectada en el clúster NTP.
+[INFO] Parámetros de kernel optimizados para alto tráfico.
+[ERROR] No se puede cargar la librería dinámica 'libcrypto.so'.
+[INFO] Mensaje de prueba enviado correctamente.
+[WARNING] Uso de memoria swap detectado.
+[INFO] Cierre del sistema iniciado por comando manual.
+[INFO] Estado final: Todos los servicios detenidos.

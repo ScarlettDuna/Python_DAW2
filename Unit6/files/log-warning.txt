@@ -1,0 +1,14 @@
+[WARNING] Uso de CPU superior al 85% detectado.
+[WARNING] Espacio en disco bajo: menos del 10% disponible en /dev/sda1.
+[WARNING] Latencia de red inusual en la interfaz eth0.
+[WARNING] El certificado SSL caducará en 5 días.
+[WARNING] Intento de acceso fallido para el usuario 'root'.
+[WARNING] Versión de Java obsoleta: Se recomienda actualizar a la v21.
+[WARNING] Temperatura del sensor 4 excediendo los 70 grados.
+[WARNING] Paquete descartado por regla de firewall #14.
+[WARNING] Consumo de RAM inestable por el proceso 'browser_helper'.
+[WARNING] Se detectó una sesión de SSH abierta por más de 12 horas.
+[WARNING] Límite de descriptores de archivo alcanzado para el proceso 88.
+[WARNING] La batería del UPS está al 40%.
+[WARNING] Desviación de reloj detectada en el clúster NTP.
+[WARNING] Uso de memoria swap detectado.

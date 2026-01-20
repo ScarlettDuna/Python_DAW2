@@ -1,0 +1,14 @@
+[ERROR] Fallo en la conexión con la base de datos: Timeout tras 30s.
+[ERROR] Permiso denegado al intentar escribir en /var/log/sys.log.
+[ERROR] Error 404: Recurso no encontrado en el servidor web.
+[ERROR] Desbordamiento de pila en el módulo de procesamiento de imágenes.
+[ERROR] Fallo crítico de hardware: Sector defectuoso en disco 2.
+[ERROR] Variable de entorno 'API_KEY' no configurada.
+[ERROR] Error de segmentación (core dumped) en proceso 4521.
+[ERROR] No se pudo resolver el host 'update.server.com'.
+[ERROR] Puntero nulo detectado en el hilo principal.
+[ERROR] Archivo de configuración corrupto o ilegible.
+[ERROR] Excepción de división por cero en el cálculo de métricas.
+[ERROR] Error de escritura en el socket: Tubería rota.
+[ERROR] Fallo en el handshake de la base de datos secundaria.
+[ERROR] No se puede cargar la librería dinámica 'libcrypto.so'.
