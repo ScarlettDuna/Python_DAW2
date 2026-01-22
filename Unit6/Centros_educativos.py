@@ -21,15 +21,16 @@ masCentros = conteo_distritos.idxmax()
 # Creación informe
 with open("files/informe_Arantxa.txt", "w", encoding="utf-8") as f:
     f.write("INFORME DE CENTROS EDUCATIVOS\n")
-    f.write(f"Total de centros: {len(archivo_centros)}\n")
-    f.write(f"Centros por tipo: \n")
+    f.write(f"\nTotal de centros: {len(archivo_centros)}\n")
+    f.write(f"\nCentros por tipo: \n")
+    # Para quedarse solo con la última parte key.split('/')[-1]
     for [key, value] in dic_tipos.items():
-        f.write(f"{key}: {value}\n")
-    f.write(f"Centros por distrito:")
+        f.write(f"{key.split('/')[-1]}: {value}\n")
+    f.write(f"\nCentros por distrito:")
     for [key, value] in dic_distritos.items():
         f.write(f"{key}: {value}\n")
     f.write("\nDISTRITO CON MÁS CENTROS:\n")
-    f.write(f"El distrito con mayor oferta educativa es {masCentros}.\n")
+    f.write(f"\nEl distrito con mayor oferta educativa es: {masCentros}.\n")
 
 plt.bar(dic_distritos.keys(), dic_distritos.values())
 plt.xticks(rotation=45, ha='right')
