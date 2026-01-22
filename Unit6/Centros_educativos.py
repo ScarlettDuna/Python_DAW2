@@ -1,9 +1,41 @@
 import pandas as pd
-archivo_centros = pd.read_csv("files/centros-educativos.csv")
-"""
-Contar cuántos centros hay en total.
-2. Contar cuántos centros hay por tipo
-3. Contar cuántos centros hay por distrito. 
-4. Encontrar el distrito con más centros educativos.
-5. Crear un gráfico de barras con centros por distrito. En el gráfico debe salir tu nombre también. 
-"""
+import matplotlib.pyplot as plt
+
+archivo_centros = pd.read_csv('files/centros-educativos.csv', sep=';', encoding='latin-1')
+
+# print(archivo_centros.head())
+
+conteo_distritos = archivo_centros['DISTRITO'].value_counts()
+
+# Creamos un diccionario de los distritos con el número de centros por distrito
+dic_distritos = conteo_distritos.to_dict()
+print(dic_distritos)
+
+# Creamos un diccionario de los distritos con el número de centros por distrito
+dic_tipos = archivo_centros['TIPO'].value_counts().to_dict()
+print(dic_tipos)
+
+# El distrito que más centros tiene
+masCentros = conteo_distritos.idxmax()
+
+# Creación informe
+with open("files/informe_Arantxa.txt", "w", encoding="utf-8") as f:
+    f.write("INFORME DE CENTROS EDUCATIVOS\n")
+    f.write(f"Total de centros: {len(archivo_centros)}\n")
+    f.write(f"Centros por tipo: \n")
+    for [key, value] in dic_tipos.items():
+        f.write(f"{key}: {value}\n")
+    f.write(f"Centros por distrito:")
+    for [key, value] in dic_distritos.items():
+        f.write(f"{key}: {value}\n")
+    f.write("\nDISTRITO CON MÁS CENTROS:\n")
+    f.write(f"El distrito con mayor oferta educativa es {masCentros}.\n")
+
+plt.bar(dic_distritos.keys(), dic_distritos.values())
+plt.xticks(rotation=45, ha='right')
+plt.xlabel('Distritos')
+plt.ylabel('Cantidad')
+plt.title('Distribución de Centros por Distrito by Arantxa R.')
+plt.tight_layout()
+plt.savefig('grafica_distritos.png')
+plt.show()

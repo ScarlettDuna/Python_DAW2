@@ -1,0 +1,62 @@
+INFORME DE CENTROS EDUCATIVOS
+Total de centros: 1708
+Centros por tipo: 
+/contenido/entidadesYorganismos/CentrosEducacion/EscuelasInfantilesPrivadasGuarderias: 432
+/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPrivadosConcertados: 314
+/contenido/entidadesYorganismos/CentrosEducacion/ColegiosPublicos: 248
+/contenido/entidadesYorganismos/CentrosEducacion/EscuelasInfantilesPublicas: 157
+/contenido/entidadesYorganismos/CentrosEducacion/InstitutosEnseñanzaSecundaria: 67
+/contenido/entidadesYorganismos/SalasEstudioLectura: 53
+/contenido/entidadesYorganismos/Universidades/ColegiosMayores: 48
+/contenido/entidadesYorganismos/CentrosEducacion/CentrosFormacionProfesionalPublicos: 45
+/contenido/entidadesYorganismos/CentrosEducacion/CentrosFormacionProfesionalPrivadosConcertados: 40
+/contenido/entidadesYorganismos/CentrosEducacion/CentrosEducacionAdultos: 40
+/contenido/entidadesYorganismos/CentrosEscuelasTiempoLibre: 35
+/contenido/entidadesYorganismos/Universidades/Facultades: 35
+/contenido/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza: 28
+/contenido/entidadesYorganismos/CentrosEducacion/CentrosPrivadosConcertadosEducacionEspecial: 28
+/contenido/entidadesYorganismos/Universidades/EscuelasUniversitarias: 21
+/contenido/entidadesYorganismos/Universidades/OtrosCentrosUniversitarios: 13
+/contenido/entidadesYorganismos/CentrosEnseñanzaIdiomas: 12
+/contenido/entidadesYorganismos/CentrosEducacion/CentrosPublicosEducacionEspecial: 12
+/contenido/entidadesYorganismos/CentrosAtencionMedica/HospitalesClinicasSanatorios: 11
+/contenido/entidadesYorganismos/CentrosEnseñanzaEspecializada: 9
+/contenido/entidadesYorganismos/AyuntamientoMadrid/OtrasEntidadesAdministrativasAyto: 6
+/contenido/entidadesYorganismos/CentrosEducacion: 4
+/contenido/entidadesYorganismos/AdministracionCentral: 2
+/contenido/entidadesYorganismos/CentrosCulturales: 2
+/contenido/entidadesYorganismos/ComunidadMadrid/ConsejeriasAsambleaPresidenciaCAM: 1
+/contenido/entidadesYorganismos/Consorcios: 1
+/contenido/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM: 1
+/contenido/entidadesYorganismos/FundacionesCulturales: 1
+/contenido/entidadesYorganismos/AdministracionCentral/AgenciasOrganismosEmpresas: 1
+/contenido/entidadesYorganismos/AdministracionCentral/MinisteriosPresidencia: 1
+/contenido/entidadesYorganismos/OrganismosInternacionales/OtrosOrganismosInternacionales: 1
+/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos: 1
+/contenido/entidadesYorganismos/Planetarios: 1
+/contenido/entidadesYorganismos/ClinicasCentrosVeterinarios: 1
+Centros por distrito:MONCLOA-ARAVACA: 164
+FUENCARRAL-EL PARDO: 157
+CHAMARTIN: 111
+HORTALEZA: 109
+CARABANCHEL: 104
+PUENTE DE VALLECAS: 103
+CIUDAD LINEAL: 100
+LATINA: 96
+SAN BLAS-CANILLEJAS: 79
+VILLAVERDE: 78
+CHAMBERI: 76
+CENTRO: 69
+ARGANZUELA: 67
+USERA: 62
+RETIRO: 58
+VILLA DE VALLECAS: 55
+MORATALAZ: 53
+TETUAN: 48
+SALAMANCA: 45
+VICALVARO: 37
+BARAJAS: 30
+DISTRITO: 6
+
+DISTRITO CON MÁS CENTROS:
+El distrito con mayor oferta educativa es MONCLOA-ARAVACA.
